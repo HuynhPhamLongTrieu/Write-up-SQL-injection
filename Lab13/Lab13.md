@@ -24,6 +24,11 @@ TrackingId=pC2P3BeD9Zq3ym5T'
 - ❌ Xuất hiện 2 thông báo lỗi SQL
 - 🔍 Lỗi do chuỗi SQL chưa được kết thúc đúng cách
 - 💡 Truy vấn trở thành: `SELECT * FROM tracking WHERE id = ' ''`
+<div align="center">
+  <img src="img/img15.jpg" alt="Minh họa" width="600">
+  <br>
+  <em>Hình 15: Minh họa kết quả</em>
+</div>
 
 #### 🔸 Bước 3: Kết thúc truy vấn SQL
 > **💡 Payload sử dụng:**
@@ -34,6 +39,11 @@ TrackingId=pC2P3BeD9Zq3ym5T'--
 > **📊 Kết quả:**
 - ✅ Không còn thông báo lỗi
 - ✅ Xác nhận có thể khai thác SQL injection qua cookie
+<div align="center">
+  <img src="img/img16.jpg" alt="Minh họa" width="600">
+  <br>
+  <em>Hình 16: Minh họa kết quả</em>
+</div>
 
 #### 🔸 Bước 4: Blind SQL Injection - Kiểm tra cấu trúc
 > **💡 Payload sử dụng:**
@@ -44,6 +54,11 @@ TrackingId=pC2P3BeD9Zq3ym5T' AND 1=CAST((SELECT 1) AS int)--
 > **📊 Kết quả:**
 - ✅ Truy vấn không có lỗi
 - ✅ Xác nhận có thể thực hiện Blind SQL Injection
+<div align="center">
+  <img src="img/img17.jpg" alt="Minh họa" width="600">
+  <br>
+  <em>Hình 17: Minh họa kết quả</em>
+</div>
 
 #### 🔸 Bước 5: Lấy tên người dùng đầu tiên
 > **💡 Payload sử dụng:**
@@ -55,6 +70,11 @@ TrackingId=pC2P3BeD9Zq3ym5T' AND 1=CAST((SELECT username FROM users LIMIT 1) AS 
 - ❌ Xuất hiện 2 lỗi nhưng đây là lỗi mong muốn
 - ✅ Hiển thị tên người dùng đầu tiên: **administrator**
 - 🎯 Xác nhận người dùng đầu tiên là admin
+<div align="center">
+  <img src="img/img18.jpg" alt="Minh họa" width="600">
+  <br>
+  <em>Hình 18: Minh họa kết quả</em>
+</div>
 
 #### 🔸 Bước 6: Lấy mật khẩu của administrator
 > **💡 Payload sử dụng:**
@@ -65,6 +85,11 @@ TrackingId=pC2P3BeD9Zq3ym5T' AND 1=CAST((SELECT password FROM users LIMIT 1) AS 
 > **📊 Kết quả:**
 - ❌ Xuất hiện lỗi nhưng chứa thông tin mật khẩu
 - ✅ Lấy được mật khẩu: **osu96xzqbyjs9r61c7ou**
+<div align="center">
+  <img src="img/img19.jpg" alt="Minh họa" width="600">
+  <br>
+  <em>Hình 1919: Minh họa kết quả</em>
+</div>
 
 ### 🚨 Thông tin tài khoản bị lộ
 ```bash
@@ -78,6 +103,11 @@ TrackingId=pC2P3BeD9Zq3ym5T' AND 1=CAST((SELECT password FROM users LIMIT 1) AS 
 #### 🔸 Bước 7: Thực hiện đăng nhập
 - 🔑 Sử dụng thông tin tài khoản administrator đã lấy được
 - ✅ Thực hiện đăng nhập thành công với quyền administrator
+  <div align="center">
+  <img src="img/img20.jpg" alt="Minh họa" width="600">
+  <br>
+  <em>Hình 20: Minh họa kết quả</em>
+</div>
 
 ### 🎯 Kết luận
 > ⚠️ **Cảnh báo nghiêm trọng:** Đã thành công khai thác lỗ hổng Blind SQL Injection thông qua cookie TrackingId để lấy thông tin đăng nhập administrator.
