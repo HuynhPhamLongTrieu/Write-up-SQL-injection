@@ -57,6 +57,11 @@ Khai thác lỗ hổng SQL injection để liệt kê nội dung cơ sở dữ l
 
 ### 🎯 Mục tiêu
 Khai thác SQL injection để lấy thông tin tài khoản administrator và thực hiện đăng nhập trái phép.
+<div align="center">
+  <img src="img/img4.jpg" alt="Giao diện trang web - Điểm tấn công SQL injection" width="600">
+  <br>
+  <em>Hình 4: Giao diện trang web và các điểm có thể bị tấn công SQL injection</em>
+</div>
 
 ### 🔍 Quá trình thực hiện
 
@@ -125,7 +130,11 @@ Khai thác SQL injection để lấy thông tin tài khoản administrator và t
 
 ### 🎯 Mục tiêu
 Khai thác SQL injection để lấy thông tin đăng nhập của tất cả người dùng và administrator từ bảng users.
-
+<div align="center">
+  <img src="img/img9.jpg" alt="Giao diện trang web - Điểm tấn công SQL injection" width="600">
+  <br>
+  <em>Hình 9: Giao diện trang web và các điểm có thể bị tấn công SQL injection</em>
+</div>
 ### 🔍 Quá trình thực hiện
 
 #### 🔸 Bước 1: Kiểm tra giao diện và xác định lỗ hổng
@@ -175,7 +184,11 @@ Khai thác SQL injection để lấy thông tin đăng nhập của tất cả n
 
 ### 🎯 Mục tiêu
 Khai thác SQL injection thông qua cookie TrackingId để lấy thông tin đăng nhập administrator bằng Blind SQL Injection.
-
+<div align="center">
+  <img src="img/img14.jpg" alt="Giao diện trang web - Điểm tấn công SQL injection" width="600">
+  <br>
+  <em>Hình 14: Giao diện trang web và các điểm có thể bị tấn công SQL injection</em>
+</div>
 ### 🔍 Quá trình thực hiện
 
 #### 🔸 Bước 1: Sử dụng Burp Suite để bắt gói tin
