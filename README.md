@@ -65,8 +65,8 @@
 
 > 💡 **Bài học:** SQL injection là một trong những lỗ hổng bảo mật phổ biến và nguy hiểm nhất trong web application. Việc hiểu rõ cách thức tấn công và phòng chống là vô cùng quan trọng đối với các developer và security professional.
 
-**📅 Ngày thực hiện:** `[Ngày hiện tại]`  
-**👨‍💻 Tác giả:** `[Tên của bạn]`  
+**📅 Ngày thực hiện:** `[21/10/2025]`  
+**👨‍💻 Tác giả:** `[vantrwng]`  
 **🏷️ Tags:** `#SQLInjection` `#WebSecurity` `#PenetrationTesting` `#DatabaseSecurity`
 
 </div>
