@@ -24,6 +24,11 @@ Khai thác lỗ hổng SQL injection để liệt kê nội dung cơ sở dữ l
 - ✅ Xuất hiện 2 dòng với nội dung "abc" và "def"
 - ✅ Chứng minh truy vấn gốc có đúng 2 cột
 - ✅ Xác nhận có thể sử dụng UNION SELECT để khai thác
+<div align="center">
+  <img src="img/img2.jpg" alt="Minh họa" width="600">
+  <br>
+  <em>Hình 2: Minh họa kết quả</em>
+</div>
 
 #### 🔸 Bước 3: Lấy thông tin phiên bản database
 > **💡 Payload sử dụng:**
@@ -34,6 +39,11 @@ Khai thác lỗ hổng SQL injection để liệt kê nội dung cơ sở dữ l
 > **📊 Kết quả:**
 - ✅ Hiển thị phiên bản của cơ sở dữ liệu
 - ✅ Xác nhận thành công việc khai thác SQL injection
+<div align="center">
+  <img src="img/img3.jpg" alt="Minh họa" width="600">
+  <br>
+  <em>Hình 3: Minh họa kết quả</em>
+</div>
 
 ### 🎯 Kết luận
 > ⚠️ **Cảnh báo:** Đã thành công khai thác lỗ hổng SQL injection để lấy thông tin phiên bản cơ sở dữ liệu, chứng minh hệ thống có lỗ hổng bảo mật nghiêm trọng.
