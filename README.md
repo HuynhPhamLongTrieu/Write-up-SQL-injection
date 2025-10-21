@@ -21,6 +21,11 @@ Khai thác lỗ hổng SQL injection để liệt kê nội dung cơ sở dữ l
 #### 🔸 Bước 1: Kiểm tra giao diện và xác định lỗ hổng
 - ✅ Truy cập vào trang web và kiểm tra các điểm có thể bị tấn công SQL injection
 - ✅ Xác định các form input hoặc parameter có thể bị khai thác
+<div align="center">
+  <img src="img/img1.jpg" alt="Giao diện trang web - Điểm tấn công SQL injection" width="600">
+  <br>
+  <em>Hình 1: Giao diện trang web và các điểm có thể bị tấn công SQL injection</em>
+</div>
 
 #### 🔸 Bước 2: Xác định số cột trong truy vấn
 > **💡 Payload sử dụng:**
