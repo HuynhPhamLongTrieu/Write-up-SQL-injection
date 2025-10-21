@@ -10,7 +10,7 @@
 </div>
 
 ---
-
+Tất cả các lab được trình bày trong thư mục riêng. Đây chỉ là phần tồng kết của dự án.
 
 ## 📊 Tổng kết và Khuyến nghị
 
